@@ -16,6 +16,7 @@
 @import 'bootstrap';
 
 
+
 .home-image {
     width: 700x;
     height: auto;
@@ -35,5 +36,24 @@ h3 {
     background-color: rgb(150, 71, 71);
     font-family: serif;
     color: #eddae4 !important;
+    text-align: center;
+
+}
+
+.nav-link:hover {
+    color: #4e3241;
+}
+
+.card-image {
+    width: 300px;
+    background-color: #fffef1b0;
+    margin: 20px;
+}
+
+.index-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 
 }
