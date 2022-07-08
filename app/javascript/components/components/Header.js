@@ -40,11 +40,12 @@ class Header extends Component {
             </NavItem>
           }
           <NavItem>
+            <NavLink to="/" className='nav-link'> Home</NavLink>
+
             <NavLink to="/apartmentindex" className='nav-link'> Apartments</NavLink>
 
             <NavLink to="/apartmentnew" className='nav-link'> List an Apartment</NavLink>
 
-            <NavLink to="/" className='nav-link'> Home</NavLink>
           </NavItem>
 
         </Nav>
